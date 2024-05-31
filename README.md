@@ -11,7 +11,9 @@ A Python simulation of biological interactions using Pygame. This simulation inc
 6. [Future Improvements](#future-improvements)
 7. [License](#license)
 
-![image_11](https://github.com/Rishit-katiyar/BiologicalSimulation/assets/167756997/e4b493d3-8388-4194-aece-f7a95def607e)
+<p align="center">
+  <img src="https://github.com/Rishit-katiyar/BiologicalSimulation/assets/167756997/e4b493d3-8388-4194-aece-f7a95def607e" alt="image_11" width="200"/>
+</p>
 
 ## Introduction 📚
 This project is a biological simulation designed to model interactions between various entities. The entities include:
