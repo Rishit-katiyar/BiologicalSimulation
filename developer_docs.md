@@ -1,6 +1,3 @@
-Certainly! Below is an example of what your `developer_docs.md` file might contain. Remember to customize it according to your project's specific requirements and guidelines.
-
-```markdown
 # Developer Documentation
 
 Welcome to the developer documentation for the BiologicalSimulation project! This document provides guidance for developers who want to contribute to or extend the project.
@@ -12,24 +9,30 @@ The project is structured as follows:
 ```
 BiologicalSimulation/
 │
-├── simulation.py
-├── requirements.txt
-├── README.md
-├── LICENSE
+├── images_output/
+│   ├── image_1.png
+│   └── image_2.jpg
 ├── .gitignore
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── Project_Submission_explanation.md
+├── README.md
+├── biological_simulation_Observation.md
 ├── developer_docs.md
-└── tests/
-    ├── test_simulation.py
-    └── test_utils.py
+├── requirements.txt
+└── simulation.py
 ```
 
-- `simulation.py`: Main Python script containing the simulation logic.
-- `requirements.txt`: File listing the project's dependencies.
-- `README.md`: Markdown file providing an overview of the project.
-- `LICENSE`: File containing the project's license information.
+- `images_output/`: Directory containing images generated as output by the simulation.
 - `.gitignore`: File specifying patterns of files to be ignored by Git.
+- `CODE_OF_CONDUCT.md`: Code of Conduct for contributors.
+- `LICENSE`: File containing the project's license information.
+- `Project_Submission_explanation.md`: Explanation of the project submission for documentation.
+- `README.md`: Markdown file providing an overview of the project.
+- `biological_simulation_Observation.md`: Document for recording observations and findings from the simulation.
 - `developer_docs.md`: This document, providing guidance for developers.
-- `tests/`: Directory containing unit tests for the project.
+- `requirements.txt`: File listing the project's dependencies.
+- `simulation.py`: Main Python script containing the simulation logic.
 
 ## Contributing Guidelines
 
@@ -108,5 +111,11 @@ python -m unittest discover -s tests -p '*_test.py'
 - Integration with external data sources.
 - Real-time visualization of simulation data.
 - Support for user-defined scenarios and parameters.
+
+## Contact Information
+
+If you have any questions or need assistance, feel free to reach out to the project maintainers:
+
+
 
 Happy coding!
