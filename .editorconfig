@@ -17,17 +17,22 @@ insert_final_newline = true
 # Python files
 [*.py]
 charset = utf-8
+indent_style = space
 indent_size = 4
 max_line_length = 120
-insert_final_newline = true
 trim_trailing_whitespace = true
+insert_final_newline = true
 
 # Markdown files
 [*.md]
 charset = utf-8
+indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+# Configuration files
+# Add more specific configurations for configuration files as needed
 
 # Ignore settings for specific files
 [.gitignore]
@@ -37,5 +42,8 @@ indent_size = 2
 trim_trailing_whitespace = true
 
 # Ignore settings for specific directories
+# Add more specific configurations for ignored directories as needed
+
+# Virtual environment directories
 [venv/**]
 charset = utf-8
